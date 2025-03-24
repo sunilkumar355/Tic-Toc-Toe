@@ -1,0 +1,55 @@
+/* Basic styling for the page */
+body {
+  background-image: linear-gradient(135deg ,rgb(98, 69, 201), rgb(124, 102, 175) ,rgb(51, 192, 192));
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+/* style h1 */
+h1{
+  text-align: center;
+  
+}
+
+/* Grid layout for the Tic Tac Toe board */
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  margin: 20px auto;
+}
+
+/* Style each box */
+.box {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: -8px -8px 20px rgba(113, 76, 76, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+ border: none;
+}
+
+/* Style the reset button */
+#reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-image: linear-gradient(135deg ,rgb(98, 69, 201), rgb(107, 95, 134) ,rgb(51, 192, 192));
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+
+}
